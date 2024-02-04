@@ -1,18 +1,16 @@
-from flask import Flask, redirect, url_for
+# This is a sample Python script.
 
-app = Flask(__name__)
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-@app.route("/")
-def home():
-    return f"hello this is me <h1> abdul</h1>"
 
-@app.route("/<name>")
-def user(name):
-    return f"Hello {name}!"
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-@app.route("/admin")
-def admin():
-    return redirect(url_for("home"))
 
-if __name__ == "__main__":
-    app.run()
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
