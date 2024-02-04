@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.stdscr" />
+          <option value="words" />
+          <option value="selenium.webdriver.chrome.webdriver.WebDriver.find_element_by_xpath" />
+          <option value="selenium.webdriver.chrome.webdriver.WebDriver.*" />
+          <option value="main.d" />
+          <option value="object.__getitem__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
